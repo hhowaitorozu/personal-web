@@ -1,0 +1,47 @@
+@import "tailwindcss";
+
+@layer base {
+    body .italianno {
+        font-family: "Italianno", cursive;
+        font-weight: 400;
+        font-style: normal;
+      }
+
+      .lexend {
+        font-family: "Lexend", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 300;
+        font-style: normal;
+      }
+    body  {
+        @apply bg-stone-400 m-7 md:max-lg:flex;
+      }
+
+      #about {
+        @apply bg-gray-950;
+      }
+
+      #t-1 {
+        @apply bg-zinc-600 text-stone-300 flex justify-center items-center h-full;
+      }
+
+      #t-2 {
+        @apply bg-stone-300 text-slate-900 flex justify-center h-full;
+      }
+
+      #mywork {
+        @apply bg-slate-900
+      }
+
+      #c-1 {
+        @apply bg-gray-100 flex flex-col justify-center items-center h-full p-16;
+      }
+
+      #c-2 {
+        @apply bg-neutral-400 flex justify-center items-center h-full p-16;
+      }
+}
+
+@layer components {
+    
+}
